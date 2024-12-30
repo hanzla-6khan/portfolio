@@ -4,7 +4,7 @@ import { Title } from '../../layouts/Title'
 import { ProjectCards } from './ProjectCards'
 import {
     projectTwo, projectThree, fgei,
-    gbportal,
+
     induction,
     duksa2
 } from "../../assets/index";
@@ -32,7 +32,7 @@ export const Projects = () => {
                 <ProjectCards
                     title="SCO Skardu / Freelancer Portal"
                     des="An online platform connecting freelancers with potential clients, tailored for Skardu's local community."
-                    src={gbportal}
+                    src={projectThree}
                     link="https://gbfreelancing.com/"
                 />
 

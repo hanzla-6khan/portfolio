@@ -9,7 +9,7 @@ import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import fgei from "./images/myimages/Fgei.png";
-import gbportal from "./images/projects/gbportal.jpeg";
+
 
 import induction from "./images/projects/Induction.jpeg";
 import duksa2 from "./images/projects/duksa2.jpeg";
@@ -27,7 +27,7 @@ export {
     quote,
     contactImg,
     fgei,
-    gbportal,
+
     induction,
     duksa2
 
