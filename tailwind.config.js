@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import daisyui from "daisyui";
+import image from "@rollup/plugin-image";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -49,5 +50,5 @@ export default {
     },
   },
 
-  plugins: [daisyui],
+  plugins: [daisyui, image()],
 };
